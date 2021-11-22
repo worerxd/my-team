@@ -1,0 +1,138 @@
+body{
+    margin: auto;
+}
+
+.header{    
+    margin: 71px 36px 38px 12px;
+}
+
+.header__title{
+    font-size: 36px;
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -0.045em;
+    margin-bottom: 38px;
+}
+
+.description__title{
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.description__resume{
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    width: 333px;
+    margin-bottom: 40px;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-left: 15px;
+}
+
+.card,.card2,.card3,.card4,.card5,.card6{    
+    display: grid;
+    grid-template-columns: 1fr 30px;
+        
+}
+
+.offset{
+    margin-top: 30px;
+}
+
+.set{
+    margin-top: -30px;
+}
+
+.card__image{    
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.card__role{
+    writing-mode: vertical-lr;
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 13px;   
+    margin-top: 5px;
+}
+
+.card__name{
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+@media(min-width: 376px){
+
+    body{
+        margin: auto;
+        width: 1000px;
+    }
+
+    .header{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .description{
+        width: 439px;
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+        color: #000000;
+    }
+
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 15px;
+        margin-left: 15px;
+    }
+
+    .card__role{
+        font-family: PT Serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .card__name{
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+    }
+
+    .offset{
+        margin: 0px;
+    }
+
+    .card2,.card5{
+        margin-top: 30%;        
+    }
+}
